@@ -1,12 +1,13 @@
-﻿# [YS65F804](https://github.com/sochub/YS65F804) 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 父级：[yspring汇春](https://github.com/sochub/yspring) 
-#### 归属：[RISC](https://github.com/sochub/RISC) 
-### [简介](https://github.com/sochub/YS65F804/wiki)
+﻿# [YS65F804](https://github.com/SoCXin/YS65F804)
+
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+
+#### [Vendor](https://github.com/SoCXin/Vendor)：[yspring](https://github.com/SoCXin/yspring)
+#### [Core](https://github.com/SoCXin/STM8)：[RISC](https://github.com/SoCXin/RISC)
+#### [Level](https://github.com/SoCXin/Level)：16MHz
 
 高性能的RISC CPU，仅需学习35条指令。除跳转指令外的所有指令都是单周期的。
- 
+
 - 高精度内部振荡器，出厂时精度校准为+/-1%。 偏差小于+/-2%
 
 - 可用软件选择的频率范围为250kHz到16MHz。
@@ -58,6 +59,7 @@ YS65F804 主要参数
 - 内部高速时钟：16MHz RC（Fcpu支持16MHz、8MHz、4MHZ、 2MHZ、 1MHZ、 500KHz、250KHz ）。
 - 内部低速时钟：RC振荡器31KHz。
 
-##  [SoC开发平台](http://www.qitas.cn)  
+### [选型建议](https://github.com/SoCXin)
 
 
+###  [SoC芯平台](http://www.SoC.Xin)
