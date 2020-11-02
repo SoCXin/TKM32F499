@@ -1,0 +1,15 @@
+_InitPort: CODE, 1039 0 14
+_TouchKeyDeal: CODE, 856 0 61
+_KeyMapping: CODE, 974 0 30
+_InitTouchDeviceRam: CODE, 917 0 57
+_Isr: CODE, 1086 0 7
+_Sleep_Pro: CODE, 493 0 118
+_main: CODE, 1022 0 17
+___lldiv: CODE, 784 0 72
+_User: CODE, 1004 0 18
+_GetTouch: CODE, 11 0 289
+_TouchPro: CODE, 1066 0 12
+_CheckLowClk: CODE, 350 0 143
+_InitTouch: CODE, 611 0 88
+_GetCap: CODE, 699 0 79
+Total: 1005
