@@ -2,11 +2,15 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[yspring](https://github.com/SoCXin/yspring)
-#### [Core](https://github.com/SoCXin/STM8)：[RISC](https://github.com/SoCXin/RISC)
+#### [Vendor](https://github.com/SoCXin/Vendor)：[yspring](http://www.yspringtech.com/)
+#### [Core](https://github.com/SoCXin/RISC)：[RISC](https://github.com/SoCXin/RISC)
 #### [Level](https://github.com/SoCXin/Level)：16MHz
 
-高性能的RISC CPU，仅需学习35条指令。除跳转指令外的所有指令都是单周期的。
+[YS65F804](https://github.com/SoCXin/YS65F804) 8bit RISC仅需学习35条指令。除跳转指令外的所有指令都是单周期的。
+
+* MTP 空间：2K*14 位。可经受 1000 次写操作
+* SRAM 空间：128 字节
+* CS SRAM：32 字节
 
 - 高精度内部振荡器，出厂时精度校准为+/-1%。 偏差小于+/-2%
 
@@ -52,14 +56,28 @@ YS65F804 主要参数
 - OperatingVoltage：2.2 ~ 5.5
 - Package Type：SOP23-6,SOP8
 - 2路10bit PWM
-
-
 双时钟系统
 
 - 内部高速时钟：16MHz RC（Fcpu支持16MHz、8MHz、4MHZ、 2MHZ、 1MHZ、 500KHz、250KHz ）。
 - 内部低速时钟：RC振荡器31KHz。
 
+
+[![sites](docs/YS65F804.png)](http://www.yspringtech.com/upload/down/YS65F804%20V1.2.pdf)
+
+#### 关键特性
+
+* 低成本
+* MDT优于OTP
+
+### [资源收录](https://github.com/SoCXin/YS65F804)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
 ### [选型建议](https://github.com/SoCXin)
 
+[YS65F804](https://github.com/SoCXin/YS65F804) 是少有的量产低成本MCU
 
-###  [SoC芯平台](http://www.SoC.Xin)
+
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)

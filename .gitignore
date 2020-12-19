@@ -1,6 +1,9 @@
-.pio/
-.vscode/
+*.pyc
 *.bin
 *.out
+*.hex
+*.log
 *.o
 ~$*
+.pio/
+.vscode/
