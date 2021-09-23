@@ -39,7 +39,6 @@ HACKING*
 *.odg
 *.csv
 *.xml
-*.pdf
 *.xlsx
 *.zip
 *.xcf
@@ -53,16 +52,14 @@ HACKING*
 *cm0*
 *.uvgu*
 .gitmodules
-*.png
-*.jpg
+# *.png
+# *.jpg
 *.rst
 .travis.yml
 doc
 *dox
 tests
-docs
 # mk
-*.md
 Doxyfile
 **/*/README*
 *.so
