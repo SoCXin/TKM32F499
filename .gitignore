@@ -65,3 +65,4 @@ Doxyfile
 **/*/README*
 *.so
 *.dcm
+flash_download.exe
