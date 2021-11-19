@@ -17,6 +17,8 @@ COPY*
 *CONTRIBU*
 LICENSE*
 HACKING*
+obj/
+*.scvd
 *.swp
 *.lck
 *.log
