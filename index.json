@@ -1,25 +1,25 @@
 {
     "type":"MCU",
     "name":"TKM32F499",
-    "title": "ST TKM32F499 MCU",
-    "description":"ST Cortex-M7 MCU",
+    "title": "tiky TKM32F499 MCU",
+    "description":"tiky Cortex-M4 MCU",
     "Core": {
-        "type":"Cortex-M7",
-        "Freq":550,
-        "DMIPS": 1177,
-        "CoreMark": 2778
+        "type":"Cortex-M4",
+        "Freq":240,
+        "DMIPS": 300,
+        "CoreMark": 0
     },
     "manufacturer": {
-        "vendor":"ST",
-        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/TKM32F499-value-line.htm"
+        "vendor":"tiky",
+        "homepage":"http://hjrkj.com"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SoCXin/TKM32F499.git"
     },
     "version":"1.0.0",
-    "series":["TKM32F499VB","TKM32F499ZB","TKM32F499IB","TKM32F499XB"],
-    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
+    "series":["TKM32F499GT","TKM32F499GB"],
+    "package":["LQFP128"],
     "peripheral": ["ADC","UART","I2C","SPI","PWM"],
     "keywords": [
         "dev-platform",
